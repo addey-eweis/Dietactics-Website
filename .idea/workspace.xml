@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="Footer was almost deleted">
-      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/MadeByRollinBoat/MadeByRollinBoat.tsx" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/MadeByRollinBoat/MadeByRollinBoat.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="Changes to next.confi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProjects/dietactics" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "addey-eweis"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a67c037d-c21c-47da-8250-b30dd4799d40" />
+        <option name="url" value="https://github.com/addey-eweis/Dietactics-Website.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +84,7 @@
       <updated>1706271847595</updated>
       <workItem from="1706271848737" duration="36607000" />
       <workItem from="1706547148425" duration="6132000" />
-      <workItem from="1706601321183" duration="1680000" />
+      <workItem from="1706601321183" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="Footer">
       <option name="closed" value="true" />
@@ -107,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706602310518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes to MadeByRollinBoat.tsx">
+      <option name="closed" value="true" />
+      <created>1706611312059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706611312059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changes to next.confi">
+      <option name="closed" value="true" />
+      <created>1706611489585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706611489585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +156,8 @@
     <MESSAGE value="Fixed Deployment Issue" />
     <MESSAGE value="Fixed Things" />
     <MESSAGE value="Footer was almost deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer was almost deleted" />
+    <MESSAGE value="Changes to MadeByRollinBoat.tsx" />
+    <MESSAGE value="Changes to next.confi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to next.confi" />
   </component>
 </project>
