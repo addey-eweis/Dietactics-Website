@@ -23,8 +23,8 @@ export default function HomePageHeader() {
                 <h1 className={styles.headerText}>Streamline Your<br/>Supply Chain</h1>
             </div>
         </section>
-        <ServicesComponent/>
 
+        <ServicesComponent/>
         <section>
         </section>
 
@@ -36,7 +36,7 @@ export default function HomePageHeader() {
             target: targetRef,
         });
 
-        const x = useTransform(scrollYProgress, [0, 1], ["0%", "-158%"]);
+        const x = useTransform(scrollYProgress, [0, 1], ["30%", "-158%"]);
         // const y = useTransform(scrollYProgress, [0, 1], ["0%", "200"]);
         //Make card turn to color and pop out when in focus
         return (<>
