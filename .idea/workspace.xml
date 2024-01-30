@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="Changes to next.confi" />
+    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="Final Fix for nextjs.yml">
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.module.scss" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.module.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.tsx" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +88,7 @@
       <updated>1706271847595</updated>
       <workItem from="1706271848737" duration="36607000" />
       <workItem from="1706547148425" duration="6132000" />
-      <workItem from="1706601321183" duration="1984000" />
+      <workItem from="1706601321183" duration="9047000" />
     </task>
     <task id="LOCAL-00001" summary="Footer">
       <option name="closed" value="true" />
@@ -134,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706611489585</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final Fix for nextjs.yml">
+      <option name="closed" value="true" />
+      <created>1706611817391</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706611817391</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +170,7 @@
     <MESSAGE value="Footer was almost deleted" />
     <MESSAGE value="Changes to MadeByRollinBoat.tsx" />
     <MESSAGE value="Changes to next.confi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to next.confi" />
+    <MESSAGE value="Final Fix for nextjs.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Fix for nextjs.yml" />
   </component>
 </project>
