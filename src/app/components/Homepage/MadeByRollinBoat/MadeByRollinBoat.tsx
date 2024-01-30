@@ -13,8 +13,10 @@ export default function MadeByRollinBoat() {
                 fontWeight: "400",
                 fontSize: ".8rem"
             }}>
-                <p style={{color: "black"}}>Powered By <Link target="_blank"
-                                                             href={"https://rollinboat.com/"}>Rollin&apos; Boat</Link>
+                <p style={{color: "black"}}>Powered & Developed By <Link
+                    style={{color: "#3C325C", fontWeight: "900", textDecoration: "underline"}}
+                    target="_blank"
+                    href={"https://rollinboat.com/"}>Rollin&apos; Boat</Link>
                 </p>
             </section>
         </>
