@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="" />
+    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="">
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/Users/addey/WebstormProjects/dietactics/src/app/components/DeveloperCredit/MadeByRollinBoat.tsx" afterDir="false" />
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/Users/addey/WebstormProjects/dietactics/src/app/components/Homepage/FooterComponent.module.scss" afterDir="false" />
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/Users/addey/WebstormProjects/dietactics/src/app/components/Homepage/FooterComponent.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -20,12 +25,15 @@
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProjects/dietactics" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2bUZvQh9u4AHveMJCxEroG8R20l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,19 +44,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "ts.external.directory.path": "/Users/addey/WebstormProjects/dietactics/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage" />
       <recent name="$USER_HOME$/WebstormProjects/dietactics/src/app" />
       <recent name="$USER_HOME$/WebstormProjects/dietactics/src/app/components" />
     </key>
@@ -61,11 +72,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706271847595</updated>
-      <workItem from="1706271848737" duration="34927000" />
+      <workItem from="1706271848737" duration="36607000" />
+      <workItem from="1706547148425" duration="5570000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
