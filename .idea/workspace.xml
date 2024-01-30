@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="">
-      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/Users/addey/WebstormProjects/dietactics/src/app/components/DeveloperCredit/MadeByRollinBoat.tsx" afterDir="false" />
-      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/Users/addey/WebstormProjects/dietactics/src/app/components/Homepage/FooterComponent.module.scss" afterDir="false" />
-      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/Users/addey/WebstormProjects/dietactics/src/app/components/Homepage/FooterComponent.tsx" afterDir="false" />
+    <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="Fixed Things">
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/shelf/Uncommitted_changes_before_Update_at_1_30_24__9_39AM__Changes_.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/shelf/Uncommitted_changes_before_Update_at_1_30_24__9_39AM__Changes_1.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/yarn.lock" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "ts.external.directory.path": "/Users/addey/WebstormProjects/dietactics/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/addey/WebstormProjects/dietactics/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage" />
@@ -73,8 +75,34 @@
       <option name="presentableId" value="Default" />
       <updated>1706271847595</updated>
       <workItem from="1706271848737" duration="36607000" />
-      <workItem from="1706547148425" duration="5570000" />
+      <workItem from="1706547148425" duration="6132000" />
+      <workItem from="1706601321183" duration="653000" />
     </task>
+    <task id="LOCAL-00001" summary="Footer">
+      <option name="closed" value="true" />
+      <created>1706600770755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706600770755</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed Deployment Issue">
+      <option name="closed" value="true" />
+      <created>1706601144670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706601144670</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed Things">
+      <option name="closed" value="true" />
+      <created>1706601676188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706601676188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +118,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Footer" />
+    <MESSAGE value="Fixed Deployment Issue" />
+    <MESSAGE value="Fixed Things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Things" />
   </component>
 </project>
