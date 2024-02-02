@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="Final Fix for nextjs.yml">
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/ServicesComponent/ServicesComponent.module.scss" afterDir="false" />
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/ServicesComponent/ServicesComponent.tsx" afterDir="false" />
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/SupplyChainIntelComponent/SupplyChainIntelComponent.module.scss" afterDir="false" />
+      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/SupplyChainIntelComponent/SupplyChainIntelComponent.tsx" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/next.config.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/next.config.js" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.module.scss" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.module.scss" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.tsx" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.tsx" afterDir="false" />
     </list>
@@ -28,12 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProjects/dietactics" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "addey-eweis"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;addey-eweis&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -88,7 +93,9 @@
       <updated>1706271847595</updated>
       <workItem from="1706271848737" duration="36607000" />
       <workItem from="1706547148425" duration="6132000" />
-      <workItem from="1706601321183" duration="9047000" />
+      <workItem from="1706601321183" duration="9078000" />
+      <workItem from="1706660362888" duration="50000" />
+      <workItem from="1706910778044" duration="4206000" />
     </task>
     <task id="LOCAL-00001" summary="Footer">
       <option name="closed" value="true" />
