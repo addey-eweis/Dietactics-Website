@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="845281f1-433e-4d4f-9b36-0c6aded2c7e0" name="Changes" comment="Final Fix for nextjs.yml">
-      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/ServicesComponent/ServicesComponent.module.scss" afterDir="false" />
-      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/ServicesComponent/ServicesComponent.tsx" afterDir="false" />
-      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/SupplyChainIntelComponent/SupplyChainIntelComponent.module.scss" afterDir="false" />
-      <change afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/SupplyChainIntelComponent/SupplyChainIntelComponent.tsx" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/next.config.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/next.config.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.module.scss" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.module.scss" afterDir="false" />
-      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.tsx" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/src/app/components/Homepage/HomePageComponents/HomePageHeader.tsx" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/package.json" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/package.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/dietactics/yarn.lock" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/dietactics/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +90,7 @@
       <workItem from="1706547148425" duration="6132000" />
       <workItem from="1706601321183" duration="9078000" />
       <workItem from="1706660362888" duration="50000" />
-      <workItem from="1706910778044" duration="4206000" />
+      <workItem from="1706910778044" duration="4611000" />
     </task>
     <task id="LOCAL-00001" summary="Footer">
       <option name="closed" value="true" />
