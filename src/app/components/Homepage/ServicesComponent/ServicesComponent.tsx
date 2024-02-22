@@ -185,22 +185,22 @@ export default function ServicesComponent() {
                 </div>
                 <div className={styles.supplyChainIntelImageContents}>
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconOne} alt={""} width={80} height={80}/>
+                        <Image src={IconOne} alt={""} width={80} height={80} unoptimized={true}/>
                         <h2>Legal & Regulatory Paperwork</h2>
                     </div>
 
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconTwo} alt={""} width={80} height={80}/>
+                        <Image src={IconTwo} alt={""} width={80} height={80} unoptimized={true}/>
                         <h2>Shipping & Handling</h2>
                     </div>
 
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconThree} alt={""} width={80} height={80}/>
+                        <Image src={IconThree} alt={""} width={80} height={80} unoptimized={true}/>
                         <h2>Marketing & Promotions</h2>
                     </div>
 
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconFour} alt={""} width={80} height={80}/>
+                        <Image src={IconFour} alt={""} width={80} height={80} unoptimized={true}/>
                         <h2>Dedicated Client Support</h2>
                     </div>
                 </div>
