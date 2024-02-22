@@ -1,12 +1,12 @@
 import React, {useRef} from "react";
 import {motion, useScroll, useTransform} from "framer-motion";
 import styles from "./ServicesComponent.module.scss";
-import Image from "next/image";
-import SupplyChainImage from "../../../assets/SupplyChainIntelImage.jpg";
-import IconOne from "../../../assets/iconOne.jpg";
-import IconTwo from "../../../assets/iconTwo.jpg";
-import IconThree from "../../../assets/iconThree.jpg";
-import IconFour from "../../../assets/iconFour.jpg";
+// import Image from "next/image";
+// import SupplyChainImage from "../../../assets/SupplyChainIntelImage.jpg";
+// import IconOne from "../../../assets/iconOne.jpg";
+// import IconTwo from "../../../assets/iconTwo.jpg";
+// import IconThree from "../../../assets/iconThree.jpg";
+// import IconFour from "../../../assets/iconFour.jpg";
 
 export default function ServicesComponent() {
 
@@ -179,28 +179,28 @@ export default function ServicesComponent() {
             <h1>Supply Chain Intelligence at your fingertips</h1>
             <div className={styles.supplyChainIntelContentsContainer}>
                 <div className={styles.supplyChainIntelImageContainer}>
-                    <Image src={SupplyChainImage} className={styles.SupplyChainImage} alt={"Supply Chain Intelligence"}
-                           loading={"lazy"} height={500}
-                           width={1100}/>
+                    {/*<Image src={SupplyChainImage} className={styles.SupplyChainImage} alt={"Supply Chain Intelligence"}*/}
+                    {/*       loading={"lazy"} height={500}*/}
+                    {/*       width={1100}/>*/}
                 </div>
                 <div className={styles.supplyChainIntelImageContents}>
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconOne} alt={""} width={80} height={80} unoptimized={true}/>
+                        {/*<Image src={IconOne} alt={""} width={80} height={80} unoptimized={true}/>*/}
                         <h2>Legal & Regulatory Paperwork</h2>
                     </div>
 
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconTwo} alt={""} width={80} height={80} unoptimized={true}/>
+                        {/*<Image src={IconTwo} alt={""} width={80} height={80} unoptimized={true}/>*/}
                         <h2>Shipping & Handling</h2>
                     </div>
 
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconThree} alt={""} width={80} height={80} unoptimized={true}/>
+                        {/*<Image src={IconThree} alt={""} width={80} height={80} unoptimized={true}/>*/}
                         <h2>Marketing & Promotions</h2>
                     </div>
 
                     <div className={styles.ContentsDiv}>
-                        <Image src={IconFour} alt={""} width={80} height={80} unoptimized={true}/>
+                        {/*<Image src={IconFour} alt={""} width={80} height={80} unoptimized={true}/>*/}
                         <h2>Dedicated Client Support</h2>
                     </div>
                 </div>
