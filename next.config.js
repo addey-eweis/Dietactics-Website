@@ -3,9 +3,16 @@
 //     output: "export",
 // }
 
+// module.exports = {
+//     // output: "export",
+//     // images: {
+//     //     unoptimized: true
+//     // },
+// }
+
 module.exports = {
     output: "export",
-    // images: {
-    //     unoptimized: true
-    // },
+    images: {
+        unoptimized: true,
+    },
 }
