@@ -7,6 +7,7 @@ import IconOne from "../../../assets/ServiceImg-03.png";
 import IconTwo from "../../../assets/ServiceImg-01.png";
 import IconThree from "../../../assets/ServiceImg-02.png";
 import IconFour from "../../../assets/ServiceImg-04.png";
+import CaseStudyComponent from "@/app/components/Homepage/CaseStudyComponent";
 
 export default function ServicesComponent() {
 
@@ -16,7 +17,7 @@ export default function ServicesComponent() {
         target: servicesRef,
     });
 
-    const bgColorTransform = useTransform(scrollYProgress, [0.78, 0.95], ["#F5F3FF", "#FFFFFF"]);
+    const bgColorTransform = useTransform(scrollYProgress, [0.78, 0.98], ["#abc1ff", "#FFFFFF"]);
 
 
     const [isHoveredOne, setHoverStateOne] = React.useState(false);
@@ -174,8 +175,7 @@ export default function ServicesComponent() {
         <motion.div
             ref={supplyChainRef}
             className={styles.SupplyChainIntelContainer}
-            style={{backgroundColor: bgColorTransform}}
-        >
+            style={{backgroundColor: bgColorTransform}}>
             <h1>Supply Chain Intelligence at your fingertips</h1>
             <div className={styles.supplyChainIntelContentsContainer}>
                 <div className={styles.supplyChainIntelImageContainer}>
@@ -206,5 +206,6 @@ export default function ServicesComponent() {
                 </div>
             </div>
         </motion.div>
+        <CaseStudyComponent/>
     </>)
 }

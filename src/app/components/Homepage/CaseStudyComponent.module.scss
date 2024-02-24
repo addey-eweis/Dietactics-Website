@@ -1,0 +1,14 @@
+.caseStudyContainer {
+  margin-top: 20vh;
+  height: 1250vh;
+  background-color: black;
+
+  .caseStudyVideo {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    object-fit: cover;
+  }
+}

@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   //height: 90vh;
-  background: #F5F3FF;
+  background: #abc1ff;
   //background: radial-gradient(circle, rgba(141, 198, 255, 1) 0%, rgb(100, 175, 255) 100%);
 
   nav {
@@ -34,7 +34,8 @@
 
         &:hover {
           transition: 0.1s;
-          background-color: #AC9FF2;
+          background-color: #3C325C;
+          color: #abc1ff;
         }
       }
 
@@ -47,9 +48,16 @@
       justify-content: center;
       align-items: center;
       padding: 1rem 2rem;
-      background-color: #AC9FF2;
-      color: #F5F3FF;
+      background-color: #3C325C;
+      color: #abc1ff;
+      font-weight: 900;
       border-radius: 2rem;
+
+      &:hover {
+        transition: .05s;
+        opacity: .8;
+        color: white;
+      }
 
     }
 
