@@ -1,18 +1,7 @@
-import React from "react";
-import styles from "./CaseStudyComponent.module.scss";
-
+import {useRef, useState, useEffect} from 'react';
 
 export default function CaseStudyComponent() {
+    const [isStart, setScrollPosition] = useState();
 
 
-    return (
-        <>
-            <section className={styles.caseStudyContainer}>
-                <video className={styles.caseStudyVideo} autoPlay={true} height="100%" width="100%">
-                    <source src="./Dietactics.mp4"/>
-                </video>
-            </section>
-
-        </>
-    )
 }

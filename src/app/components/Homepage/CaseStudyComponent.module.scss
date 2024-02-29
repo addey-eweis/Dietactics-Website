@@ -1,7 +1,8 @@
 .caseStudyContainer {
   margin-top: 20vh;
-  height: 1250vh;
-  background-color: black;
+  height: 500vh;
+  background-color: red;
+  //overflow-y: scroll;
 
   .caseStudyVideo {
     top: 0;
@@ -11,4 +12,6 @@
     background-color: red;
     object-fit: cover;
   }
+
 }
+

@@ -8,6 +8,10 @@ import IconTwo from "../../../assets/ServiceImg-01.png";
 import IconThree from "../../../assets/ServiceImg-02.png";
 import IconFour from "../../../assets/ServiceImg-04.png";
 import CaseStudyComponent from "@/app/components/Homepage/CaseStudyComponent";
+import SupplyChainCoordinationImage from "../../../assets/supplyChainCoordination.jpg"
+import CustomFoodSolutionsImage from "../../../assets/CustomFoodSolutions.jpg"
+import CustomBeverageSolutionsImage from "../../../assets/CustomBeverageSolutions.jpg"
+import CustomNutritionSolutionsImage from "../../../assets/CustomNutritionSolutions.jpg"
 
 export default function ServicesComponent() {
 
@@ -55,16 +59,15 @@ export default function ServicesComponent() {
                     initial={{filter: "grayscale(1)"}}
                     whileInView={{filter: "none"}}>
 
+                    <Image className={styles.supplyCHainCoordinationImage} src={SupplyChainCoordinationImage}
+                           alt="Supply Chain Coordination" height={330}/>
                     <h1>Supply Chain Coordination</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus semper nibh, in
-                        accumsan urna semper sed. Nulla at volutpat massa. Donec elit turpis, dictum ac vulputate
-                        vitae, porta ac ante. Nunc in leo ex. Nunc in viverra magna. Nunc hendrerit tincidunt
-                        ligula, a finibus mi consequat non. Duis ac euismod sapien. Cras sit amet consequat erat.
-                        Nullam suscipit feugiat imperdiet. Etiam luctus nisi sed libero tincidunt, ac sollicitudin
-                        risus consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                        fames ac turpis egestas. Mauris ut erat sit amet dolor pharetra congue tristique at felis.
-                        Proin ipsum eros, vehicula a ullamcorper quis, cursus non eros. Curabitur sit amet semper
-                        turpis, vitae malesuada nibh. Sed quis ligula elit.</p>
+                    <div className={styles.serviceDescription}>
+                        <ul>Assurance & Inspection of Suppliers</ul>
+                        <ul>Source visibility of growers</ul>
+                        <ul>Industrial Consultation</ul>
+                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                    </div>
                 </motion.div>
 
 
@@ -87,17 +90,15 @@ export default function ServicesComponent() {
                             initial={{filter: "grayscale(1)"}}
                             whileInView={{filter: "none"}}>
 
-                    <h1>Market Intel</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus semper nibh,
-                        in accumsan urna semper sed. Nulla at volutpat massa. Donec elit turpis, dictum ac
-                        vulputate vitae, porta ac ante. Nunc in leo ex. Nunc in viverra magna. Nunc hendrerit
-                        tincidunt ligula, a finibus mi consequat non. Duis ac euismod sapien. Cras sit amet
-                        consequat erat. Nullam suscipit feugiat imperdiet. Etiam luctus nisi sed libero
-                        tincidunt, ac sollicitudin risus consectetur. Pellentesque habitant morbi tristique
-                        senectus et netus et malesuada fames ac turpis egestas. Mauris ut erat sit amet dolor
-                        pharetra congue tristique at felis. Proin ipsum eros, vehicula a ullamcorper quis,
-                        cursus non eros. Curabitur sit amet semper turpis, vitae malesuada nibh. Sed quis ligula
-                        elit.</p>
+                    <Image className={styles.supplyCHainCoordinationImage} src={CustomFoodSolutionsImage}
+                           alt="Supply Chain Coordination" height={330}/>
+                    <h1>Custom Food Solutions</h1>
+                    <div className={styles.serviceDescription}>
+                        <ul>Assurance & Inspection of Suppliers</ul>
+                        <ul>Source visibility of growers</ul>
+                        <ul>Industrial Consultation</ul>
+                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                    </div>
                 </motion.div>
 
 
@@ -120,17 +121,15 @@ export default function ServicesComponent() {
                             initial={{filter: "grayscale(1)"}}
                             whileInView={{filter: "none"}}>
 
-                    <h1>Market Intel</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus semper nibh,
-                        in accumsan urna semper sed. Nulla at volutpat massa. Donec elit turpis, dictum ac
-                        vulputate vitae, porta ac ante. Nunc in leo ex. Nunc in viverra magna. Nunc hendrerit
-                        tincidunt ligula, a finibus mi consequat non. Duis ac euismod sapien. Cras sit amet
-                        consequat erat. Nullam suscipit feugiat imperdiet. Etiam luctus nisi sed libero
-                        tincidunt, ac sollicitudin risus consectetur. Pellentesque habitant morbi tristique
-                        senectus et netus et malesuada fames ac turpis egestas. Mauris ut erat sit amet dolor
-                        pharetra congue tristique at felis. Proin ipsum eros, vehicula a ullamcorper quis,
-                        cursus non eros. Curabitur sit amet semper turpis, vitae malesuada nibh. Sed quis ligula
-                        elit.</p>
+                    <Image className={styles.supplyCHainCoordinationImage} src={CustomBeverageSolutionsImage}
+                           alt="Supply Chain Coordination" height={330}/>
+                    <h1>Custom Beverage Solutions</h1>
+                    <div className={styles.serviceDescription}>
+                        <ul>Assurance & Inspection of Suppliers</ul>
+                        <ul>Source visibility of growers</ul>
+                        <ul>Industrial Consultation</ul>
+                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                    </div>
                 </motion.div>
 
 
@@ -153,17 +152,15 @@ export default function ServicesComponent() {
                             initial={{filter: "grayscale(1)"}}
                             whileInView={{filter: "none"}}>
 
-                    <h1>Market Intel</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus semper nibh,
-                        in accumsan urna semper sed. Nulla at volutpat massa. Donec elit turpis, dictum ac
-                        vulputate vitae, porta ac ante. Nunc in leo ex. Nunc in viverra magna. Nunc hendrerit
-                        tincidunt ligula, a finibus mi consequat non. Duis ac euismod sapien. Cras sit amet
-                        consequat erat. Nullam suscipit feugiat imperdiet. Etiam luctus nisi sed libero
-                        tincidunt, ac sollicitudin risus consectetur. Pellentesque habitant morbi tristique
-                        senectus et netus et malesuada fames ac turpis egestas. Mauris ut erat sit amet dolor
-                        pharetra congue tristique at felis. Proin ipsum eros, vehicula a ullamcorper quis,
-                        cursus non eros. Curabitur sit amet semper turpis, vitae malesuada nibh. Sed quis ligula
-                        elit.</p>
+                    <Image className={styles.supplyCHainCoordinationImage} src={CustomNutritionSolutionsImage}
+                           alt="Supply Chain Coordination" height={330}/>
+                    <h1>Custom Nutrition Solutions</h1>
+                    <div className={styles.serviceDescription}>
+                        <ul>Assurance & Inspection of Suppliers</ul>
+                        <ul>Source visibility of growers</ul>
+                        <ul>Industrial Consultation</ul>
+                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                    </div>
                 </motion.div>
 
 

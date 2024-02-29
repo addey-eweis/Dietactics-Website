@@ -15,7 +15,7 @@
     padding: 0 2rem;
 
     .serviceCardItem {
-      background-color: #AC9FF2;
+      background-color: white;
       filter: grayscale(1);
       margin-top: auto;
       margin-bottom: auto;
@@ -26,7 +26,27 @@
       -webkit-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.10);
       -moz-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.10);
       box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.10);
-      color: white;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //justify-content: center;
+
+      .supplyCHainCoordinationImage {
+        object-fit: scale-down;
+      }
+
+
+      h1 {
+        font-size: 1.9rem;
+        font-weight: 800;
+        color: black;
+        text-align: center;
+      }
+
+      .serviceDescription {
+
+      }
 
       &:hover {
         filter: none;
