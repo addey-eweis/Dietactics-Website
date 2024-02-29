@@ -12,6 +12,7 @@ import SupplyChainCoordinationImage from "../../../assets/supplyChainCoordinatio
 import CustomFoodSolutionsImage from "../../../assets/CustomFoodSolutions.jpg"
 import CustomBeverageSolutionsImage from "../../../assets/CustomBeverageSolutions.jpg"
 import CustomNutritionSolutionsImage from "../../../assets/CustomNutritionSolutions.jpg"
+import Link from "next/link";
 
 export default function ServicesComponent() {
 
@@ -39,6 +40,7 @@ export default function ServicesComponent() {
 
             <motion.div style={{x}} className={styles.servicesCardContainer}>
 
+
                 <motion.div
                     onMouseEnter={() => setHoverStateOne(true)}
                     onMouseLeave={() => setHoverStateOne(false)}
@@ -63,10 +65,11 @@ export default function ServicesComponent() {
                            alt="Supply Chain Coordination" height={330}/>
                     <h1>Supply Chain Coordination</h1>
                     <div className={styles.serviceDescription}>
-                        <ul>Assurance & Inspection of Suppliers</ul>
-                        <ul>Source visibility of growers</ul>
-                        <ul>Industrial Consultation</ul>
-                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Assurance & Inspection of Suppliers</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Source visibility of growers</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Industrial Consultation</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Sourcing & Brokerage of Nutrition</ul>
+
                     </div>
                 </motion.div>
 
@@ -94,10 +97,10 @@ export default function ServicesComponent() {
                            alt="Supply Chain Coordination" height={330}/>
                     <h1>Custom Food Solutions</h1>
                     <div className={styles.serviceDescription}>
-                        <ul>Assurance & Inspection of Suppliers</ul>
-                        <ul>Source visibility of growers</ul>
-                        <ul>Industrial Consultation</ul>
-                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Functional Foods</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Organic Food</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Bio-engineered</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Sourcing & Brokerage of Nutrition</ul>
                     </div>
                 </motion.div>
 
@@ -125,10 +128,9 @@ export default function ServicesComponent() {
                            alt="Supply Chain Coordination" height={330}/>
                     <h1>Custom Beverage Solutions</h1>
                     <div className={styles.serviceDescription}>
-                        <ul>Assurance & Inspection of Suppliers</ul>
-                        <ul>Source visibility of growers</ul>
-                        <ul>Industrial Consultation</ul>
-                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Sports Drinks</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Fruit Juices</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Diet Beverages</ul>
                     </div>
                 </motion.div>
 
@@ -156,10 +158,9 @@ export default function ServicesComponent() {
                            alt="Supply Chain Coordination" height={330}/>
                     <h1>Custom Nutrition Solutions</h1>
                     <div className={styles.serviceDescription}>
-                        <ul>Assurance & Inspection of Suppliers</ul>
-                        <ul>Source visibility of growers</ul>
-                        <ul>Industrial Consultation</ul>
-                        <ul>Sourcing & Brokerage of Nutrition</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Fitness Nutrition</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Vitamins Nutrition</ul>
+                        <ul>&#8212; &nbsp;&nbsp;Sports Nutrition</ul>
                     </div>
                 </motion.div>
 
