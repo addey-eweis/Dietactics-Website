@@ -1,0 +1,134 @@
+//Services Section
+.servicesServicesContainer {
+  height: 650vh;
+
+  .servicesCardContainer {
+    max-width: 100vw;
+    background-color: transparent;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+    padding: 0 2rem;
+
+    .serviceCardItem {
+      background-color: white;
+      filter: grayscale(1);
+      margin-top: auto;
+      margin-bottom: auto;
+      height: 80vh;
+      width: 35vw;
+      border-radius: 3rem;
+      padding: 2rem;
+      -webkit-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.10);
+      -moz-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.10);
+      box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.10);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //justify-content: center;
+
+      .supplyCHainCoordinationImage {
+        object-fit: scale-down;
+      }
+
+
+      h1 {
+        font-size: 1.9rem;
+        font-weight: 800;
+        color: black;
+        margin-top: 1rem;
+        text-align: center;
+      }
+
+      .serviceDescription {
+        //margin-top: 1.5rem;
+        margin-right: auto;
+        margin-left: 0;
+
+
+        ul {
+          margin: 2rem 0;
+        }
+      }
+
+      &:hover {
+        filter: none;
+      }
+    }
+
+    #oneCard {
+
+    }
+
+    #twoCard {
+
+    }
+
+    #threeCard {
+
+    }
+
+    #fourCard {
+
+    }
+  }
+}
+
+
+//Supply Chain Intel Component
+
+.SupplyChainIntelContainer {
+  display: flex;
+  height: 90vh;
+  padding: 5rem 2rem 2rem;
+  flex-direction: column;
+
+  h1 {
+    color: #3C325C;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+  }
+
+  .supplyChainIntelContentsContainer {
+    padding: 2rem 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+
+    .supplyChainIntelImageContainer {
+      height: 30rem;
+      width: 45rem;
+      display: flex;
+      //border: 5px blue solid;
+      .SupplyChainImage {
+        margin-bottom: 50rem;
+      }
+
+    }
+
+    .supplyChainIntelImageContents {
+      //background-color: red;
+      margin-left: 4rem;
+
+      .ContentsDiv {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+
+        h2 {
+          margin-left: 1.5rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

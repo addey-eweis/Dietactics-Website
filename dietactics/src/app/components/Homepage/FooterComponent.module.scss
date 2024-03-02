@@ -1,0 +1,82 @@
+.FooterContainer {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3C325C;
+
+
+  .FooterContent {
+    gap: 2.5rem;
+    height: 70vh;
+    width: 100%;
+    margin: 0 2rem 2rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    background-color: white;
+    grid-template-columns: repeat(2, 1fr);
+
+    .FooterLogo {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #3C325C;
+      width: fit-content;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 2rem;
+      text-align: left;
+      margin-top: 1rem;
+    }
+
+    .contactContainer {
+      display: flex;
+      flex-direction: column;
+
+
+      h2 {
+        font-family: "Open Sans", serif;
+        font-size: 1rem;
+        margin-left: 1rem;
+
+      }
+
+      .contactIcon {
+        color: #3C325C;
+      }
+
+      .contactEmail {
+        margin-top: 2.2rem;
+        font-family: "Open Sans", serif;
+        display: flex;
+
+
+      }
+
+      .contactPhone {
+        margin-top: 1rem;
+        font-family: "Open Sans", serif;
+        display: flex;
+
+
+      }
+
+      .contactLocation {
+        margin-top: 1rem;
+        font-family: "Open Sans", serif;
+        display: flex;
+
+
+      }
+
+
+    }
+
+
+    .formContainer {
+      background-color: red;
+    }
+
+  }
+}

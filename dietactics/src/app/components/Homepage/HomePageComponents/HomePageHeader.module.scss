@@ -1,0 +1,95 @@
+//Header Section
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  //height: 90vh;
+  background: #abc1ff;
+  //background: radial-gradient(circle, rgba(141, 198, 255, 1) 0%, rgb(100, 175, 255) 100%);
+
+  nav {
+    color: #3C325C;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    list-style: none;
+
+    .navbarLogo {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+
+    .nonLogoItems {
+      display: flex;
+      flex-direction: row;
+      margin: auto auto auto 4rem;
+
+      .navbarItem {
+        margin: 0 0 0 2rem;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+
+        &:hover {
+          transition: 0.1s;
+          background-color: #3C325C;
+          color: #abc1ff;
+        }
+      }
+
+    }
+
+    .contactButton {
+      margin-top: auto;
+      margin-bottom: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #3C325C;
+      color: #abc1ff;
+      font-weight: 900;
+      border-radius: 2rem;
+
+      &:hover {
+        transition: .05s;
+        opacity: .8;
+        color: white;
+      }
+
+    }
+
+  }
+
+  .headerContainer {
+    position: sticky;
+    //height: 100vh;
+    margin-top: 3rem;
+    //border: #a799f1 5px solid;
+
+    //border-left: 2px solid #3C325C;
+    //border-radius: 2rem;
+
+    .headerSubText {
+      font-size: 1.4rem;
+      color: #3C325C;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 5.5rem;
+    }
+
+    .headerText {
+      margin-top: 0;
+      margin-bottom: 5.5rem;
+      color: #3C325C;
+      font-size: 7rem;
+      font-weight: 600;
+      line-height: 8rem;
+      text-align: center;
+
+
+    }
+  }
+}
